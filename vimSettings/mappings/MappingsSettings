@@ -1,0 +1,4 @@
+let mapleader=" "
+nmap <leader>rl :source ~/.vimrc<CR>
+map <leader>cs :colorscheme <C-D>
+nmap <space><space> :20Lex<CR>
