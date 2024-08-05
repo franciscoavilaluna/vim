@@ -14,7 +14,11 @@
 * #### File Tree
     * To use the tile file tree, press `<leader><leader>` **(space)** and a left tab will open showing the current working directory including it's files. You can always close it by pressing the same combination.
 * #### Auto Pairing
-    * It supports auto pairing for the following keys: **`()`, `{}`, `[]`**
+    * It supports auto pairing for the following keys: **`()`, `{}`, `[]`** with
+      flexible functionality. Here's how it works:
+      * `(` = `()`
+      * `((` = `(`
+      * `()` = `()`
 * #### Status Line
     * This configuration provides a minimal status line with Git Branch integration. The following returns the current branch or an empty string if there is no git repository.
 
