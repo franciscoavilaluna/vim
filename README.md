@@ -8,54 +8,81 @@
 ```
 
 ## Features
-* #### Completion
-    * It uses the omnifunction, press `<C-x><C-o>` while open in **`INSERT`** mode for word completion, `<C-x><C-f>` for files and `<C-x><C-t>` for tags. If matching names are found, a pop-up menu opens which can be navigated using the `<C-n>` and `<C-p>` keys.
 
-* #### File Tree
-    * To use the tile file tree, press `<leader><leader>` **(space)** and a left tab will open showing the current working directory including it's files. You can always close it by pressing the same combination.
-* #### Auto Pairing
-    * It supports auto pairing for the following keys: **`()`, `{}`, `[]`** with
-      flexible functionality. Here's how it works:
-      * `(` = `()`
-      * `((` = `(`
-      * `()` = `()`
-* #### Status Line
-    * This configuration provides a minimal status line with Git Branch integration. The following returns the current branch or an empty string if there is no git repository.
+- #### Completion
+
+  - It uses the omnifunction, press `<C-x><C-o>` while open in **`INSERT`** mode for word completion, `<C-x><C-f>` for files and `<C-x><C-t>` for tags. If matching names are found, a pop-up menu opens which can be navigated using the `<C-n>` and `<C-p>` keys.
+
+- #### File Tree
+  - To use the tile file tree, press `<leader><leader>` **(space)** and a left tab will open showing the current working directory including it's files. You can always close it by pressing the same combination.
+- #### Auto Pairing
+  - It supports auto pairing for the following keys: **`()`, `{}`, `[]`** with
+    flexible functionality. Here's how it works:
+    - `(` = `()`
+    - `((` = `(`
+    - `()` = `()`
+- #### Status Line
+  - This configuration provides a minimal status line with Git Branch integration. The following returns the current branch or an empty string if there is no git repository.
 
 ## Requirements
-* [Vim](https://www.vim.org/) >= **5.0** (OMNI completion features / Intellisense code completion)
-* [Git](https://git-scm.com/) - Any version
+
+- [Vim](https://www.vim.org/) >= **5.0** (OMNI completion features / Intellisense code completion)
+- [Git](https://git-scm.com/) - Any version
 
 ## Instalation
-* #### Make a backup of your current .vimrc file
-`mv .vimrc{,.bak}`
 
-* #### Clone the repo
-`https://github.com/franciscoavilaluna/vim $HOME/`
+1. #### Run the Installation Script
 
-* #### Access the `vim` directory
-`cd vim`
+   ##### Execute the following command to download and run the installation script:
 
-* #### Move the files to the `$HOME/` directory
-`mv .vimrc vimSettings/ $HOME/`
+   #### Bash
 
-* #### Start Vim!
-`vim`
+   ```bash
+   bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/scripts/install_bash.sh)
+   ```
+
+   #### Zsh
+
+   ```zsh
+   zsh <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/scripts/install_zsh.zsh)
+   ```
+
+2. **Start Vim**
+
+   You can now start Vim, and it will use the new configuration:
+
+   ```bash
+   vim
+   ```
+
+## Additional Notes
+
+- #### Updating Configuration: To update the configuration, pull the latest changes from the repository:
+
+  ```bash
+  cd ~/.vim
+  git pull origin main
+  ```
+
+- #### Troubleshooting: If you encounter issues, ensure that all files are correctly sourced in `.vimrc` and check for any errors during startup.
 
 ## File Structure
-```
-$HOME/
-├── vimSettings/
-│   ├── auto-pairing/
-│   ├── autocommands/
-│   ├── colors/
-│   ├── completion/
-│   ├── display/
-│   ├── mappings/
-│   ├── sounds/
-│   └── statusline/
-└── .vimrc
 
 ```
-* #### Tip
-Remove the `.git` directory if not needed after installation
+$HOME/
+├── .vim/
+│   ├── vimSettings/
+│   │   ├── auto-pairing.vim
+│   │   ├── colors.vim
+│   │   ├── completion.vim
+│   │   ├── keybindings.vim
+│   │   ├── mappings.vim
+│   │   ├── plugins.vim
+│   │   ├── statusline.vim
+│   │   └── main.vim
+│   └── .vimrc -> ~/.vim/vimSettings/main.vim (symlink)
+└── .vimrc (symlink)
+```
+
+- #### Tip
+  Remove the `.git` directory if not needed after installation.

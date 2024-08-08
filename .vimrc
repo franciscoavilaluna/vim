@@ -1,26 +1,31 @@
 " ~/.vimrc
 
+" Set the runtime path to include the vimSettings directory
+set runtimepath+=~/.vim/vimSettings
+
+" Source the main configuration file from the vimSettings directory
+source ~/.vim/vimSettings/main.vim
+
 " Source mappings
-source ~/vimSettings/mappings/MappingsSettings
+source ~/.vim/vimSettings/mappings/MappingsSettings
 
 " Source colors
-source ~/vimSettings/colors/ColorsSettings
+source ~/.vim/vimSettings/colors/ColorsSettings
 
 " Source display settings
-source ~/vimSettings/display/DisplaySettings
+source ~/.vim/vimSettings/display/DisplaySettings
 
 " Source auto-pairing settings
-source ~/vimSettings/auto-pairing/AutoPairingSettings
+source ~/.vim/vimSettings/auto-pairing/AutoPairingSettings
 
 " Source autocommands settings
-source ~/vimSettings/autocommands/AutoCommandsSettings
+source ~/.vim/vimSettings/autocommands/AutoCommandsSettings
 
 " Source statusline settings
-source ~/vimSettings/statusline/StatuslineSettings
+source ~/.vim/vimSettings/statusline/StatuslineSettings
 
 " Source sounds settings
-source ~/vimSettings/sounds/SoundsSettings
+source ~/.vim/vimSettings/sounds/SoundsSettings
 
 " Source Omni Completion
-source ~/vimSettings/completion/CompletionSettings
-
+source ~/.vim/vimSettings/completion/CompletionSettings
