@@ -15,7 +15,7 @@ fi
 # Clone the repository into .vim directory
 git clone https://github.com/franciscoavilaluna/vim.git "$HOME/.vim"
 
-# Create symlink from .vimrc to the main configuration file
-ln -s "$HOME/.vim/vimSettings/main.vim" "$HOME/.vimrc"
+# Create symlink from .vimrc to $HOME
+ln -s "$HOME/.vim/.vimrc" "$HOME/.vimrc"
 
 echo "Installation complete! You can start Vim by typing 'vim'."
