@@ -38,13 +38,13 @@
    #### Bash
 
    ```bash
-   bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/scripts/install_bash.sh)
+   bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/main/scripts/install_bash.sh)
    ```
 
    #### Zsh
 
    ```zsh
-   zsh <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/scripts/install_zsh.zsh)
+   zsh <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/main/scripts/install_zsh.zsh)
    ```
 
 2. **Start Vim**
