@@ -3,9 +3,6 @@
 " Set the runtime path to include the vimSettings directory
 set runtimepath+=~/.vim/vimSettings
 
-" Source the main configuration file from the vimSettings directory
-source ~/.vim/vimSettings/main.vim
-
 " Source mappings
 source ~/.vim/vimSettings/mappings/MappingsSettings
 
