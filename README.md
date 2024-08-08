@@ -72,15 +72,15 @@
 $HOME/
 ├── .vim/
 │   ├── vimSettings/
-│   │   ├── auto-pairing.vim
-│   │   ├── colors.vim
-│   │   ├── completion.vim
-│   │   ├── keybindings.vim
-│   │   ├── mappings.vim
-│   │   ├── plugins.vim
-│   │   ├── statusline.vim
-│   │   └── main.vim
-│   └── .vimrc -> ~/.vim/vimSettings/main.vim (symlink)
+│   │   ├── auto-pairing/
+│   │   ├── autocommands/
+│   │   ├── colors/
+│   │   ├── completion/
+│   │   ├── display/
+│   │   ├── mappings/
+│   │   ├── sounds/
+│   │   └── statusline/
+│   └── .vimrc
 └── .vimrc (symlink)
 ```
 
