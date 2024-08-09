@@ -27,33 +27,24 @@
 ## Requirements
 
 - [Vim](https://www.vim.org/) >= **5.0** (OMNI completion features / Intellisense code completion)
-- [Git](https://git-scm.com/) - Any version
+- [Git](https://git-scm.com/) - Statusbar functionality
+- [Bash](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>) - For the installation script
 
-## Instalation
+## Installation
 
 1. #### Run the Installation Script
 
-   ##### Execute the following command to download and run the installation script:
-
-   #### Bash
+   Execute the following command to download and run the installation script:
 
    ```bash
    bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/main/scripts/install_bash.sh)
    ```
 
-   #### Zsh
-
-   ```zsh
-   zsh <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/main/scripts/install_zsh.zsh)
-   ```
-
-2. **Start Vim**
+2. #### Start Vim
 
    You can now start Vim, and it will use the new configuration:
 
-   ```bash
-   vim
-   ```
+   `vim`
 
 ## Additional Notes
 
