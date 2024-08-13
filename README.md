@@ -10,9 +10,19 @@
 ## Features
 
 - #### Completion
+  - To invoke Omni completion, press the `Ctrl + x` key combination (`<C-x>`) and then press one of the following key combinations to get the desired result:
+  - `<Ctrl + ]>` - Tags file completion
+  - `<Ctrl + d>` - Definition completion
+  - `<Ctrl + f>` - Filename completion (based on files in `$PWD`)
+  - `<Ctrl + i>` - Path pattern completion
+  - `<Ctrl + k>` - Dictionary completion
+  - `<Ctrl + l>` - Whole line completion
+  - `<Ctrl + n>` - Keyword local completion
+  - `<Ctrl + o>` - Omni completion completion
+  - `<Ctrl + v>` - Command line completion
 
-  - Press `<Tab>` while open in **`INSERT`** mode for word completion, `<C-x><C-f>` for files and `<C-x><C-t>` for tags. If matching names are found, a pop-up menu opens which can be navigated using the `<Tab>` and `<S-Tab>` keys.
-
+  If matching names are found, a pop-up menu opens which can be navigated using the `<C-n>` and `<C-p>` keys.
+  
 - #### File Tree
   - To use the tile file tree, press `<leader><leader>` **(space)** and a left tab will open showing the current working directory including it's files. You can always close it by pressing the same combination.
 - #### Auto Pairing
@@ -22,6 +32,12 @@
     - `()` = `()`
 - #### Status Line
   - This configuration provides a minimal status line with Git Branch integration. The following returns the current branch or an empty string if there is no git repository.
+- #### Git Integration in Vim
+  - Quickly perform Git operations directly from Vim with the following mappings:
+  - `<Leader> + gs` - Show the current Git status
+  - `<Leader> + ga` - Stage changes in the current file
+  - `<Leader> + gc` - Commit staged changes with a prompt for your commit
+  - `<Leader> + gp` - Push commits to the remote repository
 
 ## Requirements
 
