@@ -1,5 +1,6 @@
 set bg=dark
 let base16colorspace=256
 colorscheme lunaperche
+
 highlight Normal ctermbg=NONE
 highlight EndOfBuffer ctermbg=NONE

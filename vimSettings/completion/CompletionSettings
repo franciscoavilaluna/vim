@@ -1,2 +1,6 @@
 set omnifunc=syntaxcomplete#Complete
+set completeopt=menuone,noselect
+inoremap <TAB> <C-n>
+inoremap <S-TAB> <C-p>
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 

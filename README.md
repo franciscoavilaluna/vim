@@ -11,13 +11,12 @@
 
 - #### Completion
 
-  - It uses the omnifunction, press `<C-x><C-o>` while open in **`INSERT`** mode for word completion, `<C-x><C-f>` for files and `<C-x><C-t>` for tags. If matching names are found, a pop-up menu opens which can be navigated using the `<C-n>` and `<C-p>` keys.
+  - Press `<Tab>` while open in **`INSERT`** mode for word completion, `<C-x><C-f>` for files and `<C-x><C-t>` for tags. If matching names are found, a pop-up menu opens which can be navigated using the `<Tab>` and `<S-Tab>` keys.
 
 - #### File Tree
   - To use the tile file tree, press `<leader><leader>` **(space)** and a left tab will open showing the current working directory including it's files. You can always close it by pressing the same combination.
 - #### Auto Pairing
-  - It supports auto pairing for the following keys: **`()`, `{}`, `[]`** with
-    flexible functionality. Here's how it works:
+  - It supports auto pairing for the following keys: **`()`, `{}`, `[]`** with flexible functionality. Here's how it works:
     - `(` = `()`
     - `((` = `(`
     - `()` = `()`
@@ -27,8 +26,7 @@
 ## Requirements
 
 - [Vim](https://www.vim.org/) >= **5.0** (OMNI completion features / Intellisense code completion)
-- [Git](https://git-scm.com/) - Statusbar functionality
-- [Bash](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>) - For the installation script
+- [Git](https://git-scm.com/) - Statusbar functionality and installation script
 
 ## Installation
 
