@@ -51,7 +51,7 @@
    Execute the following command to download and run the installation script:
 
    ```bash
-   bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/main/scripts/install_bash.sh)
+   bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/vim/main/scripts/install.sh)
    ```
 
 2. #### Start Vim
