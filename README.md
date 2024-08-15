@@ -56,7 +56,7 @@
 
 2. #### Start Vim
 
-   You can now start Vim, and it will use the new configuration:
+   You can now start Vim using the following command:
 
    `vim`
 
