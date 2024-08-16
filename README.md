@@ -42,6 +42,7 @@
 - #### Snippets
   - You can add or use custom snippets inside `.vim/vimSettings/snippets`
   - To use the html built-in snippet press `,html` in **`NORMAL`** mode.
+  - (Snippet mappings can be found inside `.vim/vimSettings/mappings/MappingsSettings`)
 
 ## Requirements
 
@@ -87,6 +88,7 @@ $HOME/
 │   │   ├── completion/
 │   │   ├── display/
 │   │   ├── mappings/
+│   │   ├── snippets/
 │   │   ├── sounds/
 │   │   └── statusline/
 │   └── .vimrc
