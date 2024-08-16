@@ -39,6 +39,10 @@
   - `<Leader> + gc` - Commit staged changes with a prompt for your commit
   - `<Leader> + gp` - Push commits to the remote repository
 
+- #### Snippets
+  - You can add or use custom snippets inside `.vim/vimSettings/snippets`
+  - To use the html built-in snippet press `,html` in **`NORMAL`** mode.
+
 ## Requirements
 
 - [Vim](https://www.vim.org/) >= **5.0** (OMNI completion features / Intellisense code completion)
