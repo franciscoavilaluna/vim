@@ -67,14 +67,18 @@
 
 ## Additional Notes
 
-- #### Updating Configuration: To update the configuration, pull the latest changes from the repository:
+- #### Updating Configuration:
+
+   To update the configuration, pull the latest changes from the repository:
 
   ```bash
   cd ~/.vim
   git pull origin main
   ```
 
-- #### Troubleshooting: If you encounter issues, ensure that all files are correctly sourced in `.vimrc` and check for any errors during startup.
+- #### Troubleshooting:
+
+   If you encounter issues, ensure that all files are correctly sourced in `.vimrc` and check for any errors during startup.
 
 ## File Structure
 
