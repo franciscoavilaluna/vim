@@ -87,7 +87,6 @@ $HOME/
 ├── .vim/
 │   ├── vimSettings/
 │   │   ├── auto-pairing/
-│   │   ├── autocommands/
 │   │   ├── colors/
 │   │   ├── completion/
 │   │   ├── display/
