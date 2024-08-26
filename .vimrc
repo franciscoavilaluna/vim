@@ -15,9 +15,6 @@ source ~/.vim/vimSettings/display/DisplaySettings
 " Source auto-pairing settings
 source ~/.vim/vimSettings/auto-pairing/AutoPairingSettings
 
-" Source autocommands settings
-source ~/.vim/vimSettings/autocommands/AutoCommandsSettings
-
 " Source statusline settings
 source ~/.vim/vimSettings/statusline/StatuslineSettings
 
