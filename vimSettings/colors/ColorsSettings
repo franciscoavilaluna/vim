@@ -1,5 +1,0 @@
-set bg=dark
-let base16colorspace=256
-colorscheme lunaperche
-
-autocmd VimEnter * highlight Normal ctermbg=NONE guibg=NONE

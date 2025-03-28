@@ -24,25 +24,18 @@
   If matching names are found, a pop-up menu opens which can be navigated using the `<C-n>` and `<C-p>` keys.
   
 - #### File Tree
-  - To use the tile file tree, press `<leader><leader>` **(space)** and a left tab will open showing the current working directory including it's files. You can always close it by pressing the same combination.
+  - To use the tile file tree, press `<leader>pv` and a left tab will open showing the current working directory including it's files. You can always close it by pressing the same combination.
 - #### Auto Pairing
   - It supports auto pairing for the following keys: **`()`, `{}`, `[]`** with flexible functionality. Here's how it works:
     - `(` = `()`
     - `((` = `(`
     - `()` = `()`
-- #### Status Line
-  - This configuration provides a minimal status line with Git Branch integration. The following returns the current branch or an empty string if there is no git repository.
 - #### Git Integration in Vim
   - Quickly perform Git operations directly from Vim with the following mappings:
-  - `<Leader> + gs` - Show the current Git status
-  - `<Leader> + ga` - Stage changes in the current file
-  - `<Leader> + gc` - Commit staged changes with a prompt for your commit
-  - `<Leader> + gp` - Push commits to the remote repository
-
-- #### Snippets
-  - You can add or use custom snippets inside `.vim/vimSettings/snippets`
-  - To use the html built-in snippet press `,html` in **`NORMAL`** mode.
-  - (Snippet mappings can be found inside `.vim/vimSettings/mappings/MappingsSettings`)
+  - `<Leader>gs` - Show the current Git status
+  - `<Leader>ga` - Stage changes in the current file
+  - `<Leader>gc` - Commit staged changes with a prompt for your commit
+  - `<Leader>gp` - Push commits to the remote repository
 
 ## Requirements
 
@@ -86,17 +79,21 @@
 $HOME/
 ├── .vim/
 │   ├── vimSettings/
-│   │   ├── auto-pairing/
-│   │   ├── colors/
-│   │   ├── completion/
-│   │   ├── display/
-│   │   ├── mappings/
-│   │   ├── snippets/
-│   │   ├── sounds/
-│   │   └── statusline/
+│   │   ├── auto-pairing.vim
+│   │   ├── colors.vim
+│   │   ├── files.vim
+│   │   ├── general.vim
+│   │   ├── git.vim
+│   │   ├── indent.vim
+│   │   ├── mappings.vim
+│   │   ├── netrw.vim
+│   │   ├── search.vim
+│   │   └── sounds.vim
+│   ├── colors/
+│   │   └── base16-black-metal.vim
 │   └── .vimrc
 └── .vimrc (symlink)
 ```
 
 - #### Tip
-  Remove the `.git` directory if not needed after installation.
+  Remove the `.git` directory if not needed after installation. (Take note that this will make 'updating' imposible.)
